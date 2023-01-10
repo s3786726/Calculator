@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="calculator">
+        <span id="screen">0000000</span>
+        <div>
+            <div class="rowOne">
+            <button onclick="addZeroToCurrent()">0</button>
+            <button onclick="addOneToCurrent()">1</button>
+            <button onclick="addTwoToCurrent()">2</button>
+            <button onclick="addThreeToCurrent()">3</button>
+            <button onclick="minus()">-</button>
+            <button onclick="escape()">esc</button>
+            </div>
+            <div class="rowOne">
+            <button onclick="addFourToCurrent()">4</button>
+            <button onclick="addFiveToCurrent()">5</button>
+            <button onclick="addSixToCurrent()">6</button>
+            <button onclick="addSevenToCurrent()">7</button>
+            <button onclick="plus()">+</button>
+            <button onclick="equals()">=</button>
+            </div>
+            <div class="rowThree">
+            <button onclick="addEightToCurrent()">8</button>
+            <button onclick="addNineToCurrent()">9</button>
+            </div>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
